@@ -1,0 +1,65 @@
+/target
+/classes
+/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+/.prepl-port
+.hgignore
+.hg/
+*~
+*#*
+
+# Emacs auto-save and backup files
+*~
+\#*\#
+.#*
+
+# Package archives and ELPA packages (reinstallable)
+elpa/
+straight/
+
+# Transient state & history
+transient/
+recentf
+projectile-bookmarks.eld
+
+# Cache files
+url/
+var/
+eshell/history
+eshell/lastdir
+
+# Undo/redo history
+undo-tree-hist/
+
+# Company mode cache
+company-statistics-cache.el
+
+# CIDER / nREPL
+.nrepl-port
+
+# Desktop save sessions
+.emacs.desktop
+.emacs.desktop.lock
+
+# TRAMP auto-saves
+tramp
+
+# Any compiled Emacs Lisp
+*.elc
+
+# LSP / eglot / language server caches
+.lsp-session-v1
+.eglot/
+
+# Flycheck / syntax check cache
+flycheck/
+
+# Gnus & mail
+.newsrc*
+.dribble
