@@ -33,6 +33,8 @@ url/
 var/
 eshell/history
 eshell/lastdir
+eln-cache/
+auto-save-list/
 
 # Undo/redo history
 undo-tree-hist/
@@ -42,6 +44,7 @@ company-statistics-cache.el
 
 # CIDER / nREPL
 .nrepl-port
+cider-history
 
 # Desktop save sessions
 .emacs.desktop
@@ -49,6 +52,7 @@ company-statistics-cache.el
 
 # TRAMP auto-saves
 tramp
+projects
 
 # Any compiled Emacs Lisp
 *.elc
